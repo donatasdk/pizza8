@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    line-height: 1.5;
+    font-size: 15px;
+    margin: 0px;
+    height: 100%;
+    font-family: "Amatic SC", sans-serif;
+}
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    background-color: black;
+    height: auto;
+    font-size: 24px;
+    z-index: 1;
+}
+.navbutton {
+    padding: 8px 16px;
+    color: white;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+header{
+    background-image: url("images/pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90%;
+
+}
+#bgbottom{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 24px;
+}
