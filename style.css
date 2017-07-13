@@ -28,6 +28,9 @@
     [class*="col-"] {
         width: 100%;
     }
+    #navbar{
+        visibility: hidden;
+    }
 }
 
 html,body {
@@ -154,3 +157,18 @@ header{
     border-radius: 50%;
 
 }
+.aboutContent h2{
+    font-size: 36px;
+    text-align: left;
+}
+#restaurantImg {
+    width: 100%;
+    padding-top:16px
+}
+.left, .right{
+  padding-left: 0px;
+}
+#contact{
+    margin: auto;
+}
+
