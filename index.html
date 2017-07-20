@@ -16,7 +16,7 @@
         <a href="#" class="navbutton btn-black padd8-16">CONTACT</a>
     </div>
 </div>
-<header>
+<header class="grayscale">
     <div class="row">
         <span id="bgbottom" class="col-2">Open from 10am to 12pm</span>
     </div>
@@ -66,7 +66,7 @@
         </div>
     </div>
 </div>
-<div id="about">
+<div class="grayscale" id="about">
     <div class="row">
         <div class="aboutContent col-8">
             <h1>ABOUT</h1>
@@ -98,31 +98,30 @@
     </div>
 
 </div>
-<div id="googleMap" style="width:100%;height:400px;"></div>
-<div id="contact">
+<div class="grayscale" id="googleMap" style="width:100%;height:400px;"></div>
+<div class="grayscale" id="contact">
     <div class="row">
-        <div class="col-8">
+        <div class="col-8 contactContainer">
             <h1>Contact</h1>
-            <p>Find us at some address at some place or call us at 05050515-122330</p>
-            <p>FYI! We offer full-service catering for any event, large or small. We understand your needs and we will
+            <p class="font-size24">Find us at some address at some place or call us at 05050515-122330</p>
+            <p class="font-size24"><span class="small-badge">Fly!</span> We offer full-service catering for any event, large or small. We understand your needs and we will
                 cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-            <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+            <p class="font-size36"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
             <form action="/action_page.php" target="_blank">
-                <p><input type="text" placeholder="Name" required name="Name"></p>
-                <p><input type="number" placeholder="How many people" required name="People"></p>
-                <p><input type="datetime-local" placeholder="Date and time" required name="date"
+                <p><input class="padd16-8" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="padd16-8" type="number" placeholder="How many people" required name="People"></p>
+                <p><input class="padd16-8" type="datetime-local" placeholder="Date and time" required name="date"
                           value="2017-11-16T20:00"></p>
-                <p><input type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+                <p><input class="padd16-8" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
                 <p>
-                    <button type="submit">SEND MESSAGE</button>
+                    <button class="padd8-16" type="submit">SEND MESSAGE</button>
                 </p>
             </form>
-
         </div>
     </div>
-
 </div>
 <footer>
+    <p class="font-size36">Powered By <a href="#">W3.CSS</a></p>
 
 </footer>
 <script>
