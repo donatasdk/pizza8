@@ -145,12 +145,16 @@ header{
     font-size: 36px;
     white-space: nowrap;
 }
-#menu{
+#menu {
     background-color: black;
     padding-top: 70px;
     padding-bottom: 70px;
     font-size: 36px;
-
+}
+#menu #top{
+    color: white;
+    text-align: center;
+    font-weight: 400;
 }
 #menuHeader{
     color: white;
